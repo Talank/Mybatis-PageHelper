@@ -1,7 +1,5 @@
 name: Maven verify
-on:
-  pull_request:
-    types: [ opened, reopened, edited ]
+on: push
 jobs:
   mvn_verify:
     runs-on: ubuntu-latest
